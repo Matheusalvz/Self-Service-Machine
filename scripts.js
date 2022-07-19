@@ -66,8 +66,8 @@ var products = [
  
 const SelfServiceMachine = {
     data() { //Funcção que vai retornar os dados da aplicação
-        return{
-            message: "Hello word"
+        return {
+            products: window.products //Acesso as variáveis globais
         }
     }
 };
